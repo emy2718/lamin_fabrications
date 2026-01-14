@@ -110,3 +110,10 @@ footer {
     margin: 6px 0;
     color: #555;
 }
+.cta a,
+.cta a:visited,
+.cta a:hover,
+.cta a:active {
+    color: white;
+    text-decoration: none;
+}
