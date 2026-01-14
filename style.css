@@ -117,3 +117,16 @@ footer {
     color: white;
     text-decoration: none;
 }
+/* === WhatsApp CTA: Mobile-proof fix (iOS + Android) === */
+.cta a {
+    text-decoration: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.cta button {
+    color: #ffffff !important;
+    background-color: #25D366;
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
