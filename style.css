@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+
+.box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px; /* Slightly softer corners */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Modern, softer shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 4px solid #25D366; /* Adds a professional accent line */
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* Make images inside the container responsive */
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.cta {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #25D366; /* WhatsApp green */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #1ebe5d;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+/* ===== Working Hours Section ===== */
+.working-hours {
+    background-color: #ffffff;
+    border-top: 5px solid #25D366;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.working-hours h2 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color: #222;
+}
+
+.working-hours p {
+    font-size: 16px;
+    margin: 6px 0;
+    color: #555;
+}
